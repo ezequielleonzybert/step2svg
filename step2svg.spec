@@ -11,7 +11,7 @@ if sys.platform == 'win32':
     ocp_path = [(os.path.join(HOMEPATH, 'OCP.cp312-win_amd64.pyd'), '.')]
 
 a = Analysis(
-    ['step2svg.pyw'],
+    ['step2svg.py'],
     pathex=[],
     binaries=ocp_path,
     datas=[],
