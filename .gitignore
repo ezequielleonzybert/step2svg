@@ -4,3 +4,6 @@
 /img/logo.png
 /img/logo.svg
 /img/wide_awake.zip
+/venv
+/build
+*.spec
