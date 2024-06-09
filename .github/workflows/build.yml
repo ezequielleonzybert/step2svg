@@ -1,4 +1,4 @@
-name: Build EXE
+name: Build EXE and Upload Artifact
 
 on:
   push:
@@ -25,4 +25,10 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile step2svg.py
+        pyinstaller --onefile --noconsole step2svg.py
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: step2svg-exe
+        path: dist/
