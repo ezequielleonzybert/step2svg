@@ -4,7 +4,7 @@ import os
 import sys
 
 block_cipher = None
-
+icon_path = 'img/logo.ico'
 ocp_path = []
 
 if sys.platform == 'win32':
@@ -15,7 +15,7 @@ a = Analysis(
     pathex=[],
     binaries=ocp_path,
     datas=[],
-    hiddenimports=[],
+    hiddenimports=['vtkmodules', 'vtkmodules.all'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -35,12 +35,13 @@ exe = EXE(
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
-    console=True,
+    console=False,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=icon_path,
 )
 coll = COLLECT(
     exe,
