@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 342.45898,23.354931 341.2689,292.82471 h 78.98324 l -0.14734,89.82183 h -22.56478 l 0.2369,-53.89309 h -56.41631 l -0.38382,143.71707 h 135.39953 l 0.8126,-269.46979 h -78.98108 l 0.14486,-89.82402 h 22.56693 l 0.13868,53.89528 h 56.4163 l 0.38383,-143.717059 z"
+       style="font-size:113.635px;font-family:'Wide awake Black';-inkscape-font-specification:'Wide awake Black, ';fill:#0000ff;stroke-width:112.104"
+       id="path5" />
+    <path
+       d="m 184.49463,23.354931 -0.38392,143.717059 h 56.41633 l -0.13867,-53.89528 h 22.56693 l -0.14734,89.82402 h -78.9809 l -0.81472,269.46979 h 135.39743 l 0.38588,-143.71707 h -56.41629 l -0.23896,53.89309 h -22.56699 l 0.14734,-89.82183 h 78.9811 l 1.19012,-269.469779 z"
+       style="font-size:113.635px;font-family:'Wide awake Black';-inkscape-font-specification:'Wide awake Black, ';fill:#212121;stroke-width:112.104"
+       id="path4" />
+    <path
+       d="M 26.53025,23.354931 25.340157,292.82471 h 78.981113 l -0.14503,89.82183 H 81.609297 l 0.238881,-53.89309 H 25.431866 l -0.38391,143.71707 H 160.44539 l 0.81472,-269.46979 H 82.27686 l 0.147175,-89.82402 h 22.564815 l 0.13863,53.89528 h 56.41632 l 0.38391,-143.717059 z"
+       style="font-size:113.635px;font-family:'Wide awake Black';-inkscape-font-specification:'Wide awake Black, ';fill:#ff0000;stroke-width:112.104"
+       id="path3" />
+  </g>
+</svg>
