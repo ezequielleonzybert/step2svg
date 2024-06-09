@@ -2,6 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt
+from convert import convert
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -26,7 +27,6 @@ class MyWindow(QWidget):
 
     def dropEvent(self, event):
         files = [url.toLocalFile() for url in event.mimeData().urls()]
-        from convert import convert #import here to load the window faster at app start
         convert(files)
 
 if __name__ == "__main__":
