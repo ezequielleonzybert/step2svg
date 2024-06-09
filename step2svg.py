@@ -1,6 +1,6 @@
 from build123d import import_step, section, BuildSketch, BuildLine, add, ExportSVG, Plane
 
-def s2s(files):
+def step2svg(files):
 
     for file in files:
         filename = file.split("/")[-1]

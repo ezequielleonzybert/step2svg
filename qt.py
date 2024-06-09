@@ -26,8 +26,8 @@ class MyWindow(QWidget):
 
     def dropEvent(self, event):
         files = [url.toLocalFile() for url in event.mimeData().urls()]
-        from s2s import s2s #import here to load the window faster at app start
-        s2s(files)
+        from step2svg import step2svg #import here to load the window faster at app start
+        step2svg(files)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
