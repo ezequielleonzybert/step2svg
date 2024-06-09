@@ -6,4 +6,5 @@
 /img/wide_awake.zip
 /venv
 /build
+/dist
 *.spec
